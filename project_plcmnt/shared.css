@@ -1,0 +1,172 @@
+#main-header {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    display: flex;
+}
+
+#logo img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+#nav-list {
+    margin-top:0;
+    margin-left:25rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+    list-style-type: none;
+}
+
+#nav-list li{
+    padding: 1.5rem 1rem;
+    font-size: 18px; 
+}
+
+#side-drawer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29, 26, 27);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#side-drawer:target {
+    display: block;
+}
+
+#side-drawer header{
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 5%;
+}
+
+#side-drawer ul{
+    list-style: none;
+    margin: 0;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#side-drawer li{
+    margin: 1rem 0;
+}
+
+#side-drawer a{
+    color: rgb(253, 239, 213);
+    font-size: 2rem;
+}
+
+.nav-btn{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+}
+
+.nav-btn span{
+    width: 100%;
+    height: 3px;
+    background-color: yellow;
+}
+
+
+@media screen and (min-width:320px) and (max-width: 480px){
+    #main-header nav ul{
+        display: none;
+    }
+
+    #logo img {
+        height: 70px;
+        border-radius: 50%;
+        margin-left: -3rem;
+    }
+    
+    #nav-list {
+        margin-top:0;
+        margin-left:25rem;
+        display: flex;
+        font-family: cursive;
+        list-style-type: none;
+    }
+    
+    #side-drawer #nav-list li{
+        padding: .5rem 1rem;
+        color:white;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #side-drawer #nav-list li a{
+        padding: .5rem 1rem;
+        color:white;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    #side-drawer{
+        width:85%;
+        height:65%;
+        margin-left: 2.45rem;
+        margin-top: -1.7rem;
+    }
+
+    #side-drawer ul{
+        padding-top: 0;
+    }
+
+    #side-drawer span{
+        margin-left: -.7rem;
+    }
+
+    .nav-btn{
+        display:flex;
+    }
+
+    .nav-btn span {
+        margin-left:2rem;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:1024px){
+    #logo img {
+        height: 100px;
+        border-radius: 50%;
+    }
+    
+    #nav-list {
+        margin-left:2rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #nav-list li{
+        padding: 1rem 1rem;
+        font-size: 18px; 
+    }
+    
+}
+
+@media screen and (min-width:1024px) and (max-width:1499px){
+    #nav-list {
+        margin-left:15rem;
+    }
+    
+    #nav-list li{
+        padding: 1.5rem 1rem;
+        font-size: 18px; 
+    }
+    
+}

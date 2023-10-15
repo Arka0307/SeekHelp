@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Caveat:wght@400;500;600;700&family=Open+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@300;400;600;900&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="/shared.css" />
+    <link rel="stylesheet" href="/symptom-form3.css" />
+    <title>Test Symptom(Adult)</title>
+</head>
+<body>
+    <header id="main-header">
+        <div id="logo">
+            <a href="/index.html"><img src="/SeekHelp (2).png"></a>
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#wnw">What & Why</a></li>
+                <li><a href="/appointment.html">Request Appointment</a></li>
+                <li><a href="#symp-btn">Test Symptoms</a></li>
+                <li>Blogs</li>
+                <li><i class="uil uil-user"></i> Log In</li>
+            </ul>
+        </nav>
+        <a href="#side-drawer" class="nav-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </header>
+    <aside id="side-drawer">
+        <header>
+            <a href="#" class="nav-btn">
+                <span style="transform:rotate(45deg); margin-top: 47px;"></span>
+                <span style="transform:rotate(-45deg);"></span>
+            </a>
+        </header>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#wnw">What & Why</a></li>
+                <li><a href="/appointment.html">Request Appointment</a></li>
+                <li><a href="#symp-btn">Test Symptoms</a></li>
+                <li>Blogs</li>
+                <li><i class="uil uil-user"></i> Log In</li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <form>
+            <section>
+                <h2>Please Answer the Following Questions</h2>
+                <ul>
+                    <li>
+                        <h3>Have you noticed any memory difficulties or changes in your personality?</h3>
+                        <input type="checkbox" id="o-q1-o1" name="Oques1-1">
+                        <label for="o-q1-o1">YES</label><br>
+                        <input type="checkbox" id="o-q1-o2" name="Oques1-2">
+                        <label for="o-q2-o1">NO</label>
+                    </li>
+                    <li>
+                        <h3>Are you experiencing any unexplained physical aches or pain?</h3>
+                        <input type="checkbox" id="o-q2-o1" name="Oques2-1">
+                        <label for="o-q2-o1">YES</label><br>
+                        <input type="checkbox" id="o-q2-o2" name="Oques2-2">
+                        <label for="o-q2-o2">NO</label>
+                    </li>
+                    <li>
+                        <h3>Are you experiencing fatigue, loss of appetite, sleep problems, or loss of interest in sex that can't be attributed to a medical condition or medication?</h3>
+                        <input type="checkbox" id="o-q3-o1" name="Oques3-1">
+                        <label for="o-q3-o1">YES</label><br>
+                        <input type="checkbox" id="o-q3-o2" name="Oques3-2">
+                        <label for="o-q3-o2">NO</label><br>
+                        <article id="mention">
+                            <label for="mention-txt">Mention your problems here :</label>
+                            <input type="text" id="mention-txt" name="mention-problems" required />
+                        </article>
+                    </li>
+                    <li>
+                        <h3>Do you find yourself wanting to stay at home more often and avoiding socializing or trying new activities?</h3>
+                        <input type="checkbox" id="o-q4-o1" name="Oques4-1">
+                        <label for="o-q4-o1">YES</label><br>
+                        <input type="checkbox" id="o-q4-o2" name="Oques4-2">
+                        <label for="o-q4-o2">NO</label>
+                    </li>
+                    <li>
+                        <h3>Have you been experiencing thoughts or feelings of suicide?</h3>
+                        <input type="checkbox" id="o-q5-o1" name="Oques5-1">
+                        <label for="o-q5-o1">YES</label><br>
+                        <input type="checkbox" id="o-q5-o2" name="Oques5-2">
+                        <label for="o-q5-o2">NO</label>
+                    </li>
+                </ul>
+            </section>
+            <section class="buttons">
+                <button type="submit" id="submit-op-btn">Submit</button>
+                <button type="reset" id="clear-op-btn">Clear</button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
