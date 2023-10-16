@@ -78,7 +78,7 @@ h1:hover{
     padding: 2rem;
     margin-left: 10rem;
     font-size: 22px;
-    font-family: cursive;
+    font-family: 'Caveat', cursive;
     line-height: 40px;
     /*border:1px solid #033d5c;*/
     border-radius: 1rem;
@@ -203,7 +203,7 @@ footer{
     }
     
     #wnw h2{
-        font-size: 14px;
+        font-size: 12px;
         margin-left:-5.3rem;
         margin-top: .3rem;
     }
@@ -212,7 +212,7 @@ footer{
         padding:.3rem;
         margin-left: 1.5rem;
         margin-right: 1rem;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 23px;
         border:1px solid #033d5c;
         border-radius: 1rem;
